@@ -1,0 +1,36 @@
+/* Reset and global styles */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-4px);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Ensure consistent gap between buttons */
+.btn + .btn {
+  margin-left: 0.5rem;
+}
+
+/* Rating star size */
+.text-warning,
+.text-secondary {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* Responsive utility */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}

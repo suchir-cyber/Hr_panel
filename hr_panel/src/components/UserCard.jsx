@@ -1,4 +1,4 @@
-import RatingStars from './RatingStars';
+import RatingStars from './Ratings';
 import { useBookmarksStore } from '../store/bookmarkStore';
 
 export default function UserCard({ user, onView }) {
